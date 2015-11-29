@@ -1,0 +1,21 @@
+web:
+  build: .
+   volumes:
+    - /var/lib/postgresql
+  command: true
+
+db:
+  image: data-science/postgresql:9.3
+  volumes_from:
+    - dbdata
+  ports:
+    - "5432:5432"
+
+redis:
+  image: redis
+
+
+expose:
+ - "5432"
+ - "6379"
+

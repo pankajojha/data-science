@@ -1,0 +1,30 @@
+{
+    "version": "1.5.3",
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "sourceMap": true
+    },
+    "files": [
+        "./app.ts",
+        "./app/LoggedInOutlet.ts",
+        "./home/home.ts",
+        "./login/login.ts",
+        "./signup/signup.ts",
+        "./common/Urls.ts",
+        "./init.ts",
+        "./typings/tsd.d.ts"
+    ],
+    "filesGlob": [
+        "./app/**/*.ts",
+        "./typings/**/*.d.ts"
+    ],
+    "compileOnSave": false,
+    "exclude": []
+}

@@ -1,0 +1,12 @@
+dbdata:
+  image: trinity/postgresql:9.3
+  volumes:
+    - /var/lib/postgresql
+  command: true
+
+db:
+  image: trinity/postgresql:9.3
+  volumes_from:
+    - dbdata
+  ports:
+    - "5432:5432"

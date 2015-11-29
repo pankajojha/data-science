@@ -1,0 +1,28 @@
+
+docker build -t ps .
+
+docker run -i -t -p 5462:5432 --name b829a50e33e1 -v var:/var/lib/postgresql -e POSTGRES_PASSWORD=vagrant -d postgres
+
+docker run -i -t -p 5462:5432 --name ps1 -v var:/var/lib/postgresql -e POSTGRES_PASSWORD=vagrant -d postgres
+
+docker run -i -t postgres /bin/bash
+
+
+# to rename image
+docker run --rm -P --name pg_test ds-postgress
+#link to another container.
+docker run --rm -t -i --link pg_test:pg ds-postgress bash
+        $ psql -h $PG_PORT_5432_TCP_ADDR -p $PG_PORT_5432_TCP_PORT -d docker -U docker --password
+#host machine connect
+psql -h localhost -p 49153 -d docker -U docker --password
+
+
+OR
+
+docker-compose up
+psql -h localhost -p 5432 -U pguser -W pgdb
+
+#docker pull postgres
+docker run --rm --volumes-from postgres -t -i busybox sh
+
+

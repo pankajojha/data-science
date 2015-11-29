@@ -1,0 +1,5 @@
+package com.trinity.datascience.domain.auth;
+
+public enum AuthStatus {
+    AUTHORIZED, UNAUTHORIZED, CONCURRENT_ERROR_TASK, UNAUTHORIZED_TASK, SESSIONEXPIRED, NO_ASSIGNMENT, NO_ACTIVE_ASSIGNMENT
+}
