@@ -1,0 +1,13 @@
+/Users/vojhapa/workspace/data-science/src/main/java/com/trinity/datascience/web/controller/TestController.java
+/Users/vojhapa/workspace/data-science/src/main/java/com/trinity/datascience/rest/Authenticator.java
+/Users/vojhapa/workspace/data-science/src/main/java/com/trinity/datascience/dao/redis/RedisAuthDAO.java
+/Users/vojhapa/workspace/data-science/src/main/java/com/trinity/datascience/exception/AuthorizationServiceException.java
+/Users/vojhapa/workspace/data-science/src/main/java/com/trinity/datascience/service/auth/RestAuthService.java
+/Users/vojhapa/workspace/data-science/src/main/java/com/trinity/datascience/service/auth/RestSessionBean.java
+/Users/vojhapa/workspace/data-science/src/main/java/com/trinity/datascience/domain/auth/AuthStatus.java
+/Users/vojhapa/workspace/data-science/src/main/java/com/trinity/datascience/Application.java
+/Users/vojhapa/workspace/data-science/src/main/java/com/trinity/datascience/dao/redis/RedisBean.java
+/Users/vojhapa/workspace/data-science/src/main/java/com/trinity/datascience/domain/AuthData.java
+/Users/vojhapa/workspace/data-science/src/main/java/com/trinity/datascience/dao/sql/MySqlDatasources.java
+/Users/vojhapa/workspace/data-science/src/main/java/com/trinity/datascience/package-info.java
+/Users/vojhapa/workspace/data-science/src/main/java/com/trinity/datascience/util/Constants.java

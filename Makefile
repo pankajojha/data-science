@@ -1,7 +1,7 @@
 PROJECT =  datascience-app
-REGISTRY = repo.trinity.io
+REGISTRY = repo.trinity-tech.io
 # Insert your company
-COMPANY = trinity
+COMPANY = trinity-tech
 
 build:
 	docker build -t $(REGISTRY)/$(COMPANY)/$(PROJECT) .

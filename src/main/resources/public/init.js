@@ -1,0 +1,4 @@
+System.import('app')
+    .catch(function (e) { return console.error(e, 'Report this error at pankaj ...'); });
+
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluaXQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsTUFBTSxDQUFDLE1BQU0sQ0FBQyxLQUFLLENBQUM7S0FDZixLQUFLLENBQUMsVUFBQSxDQUFDLElBQUksT0FBQSxPQUFPLENBQUMsS0FBSyxDQUFDLENBQUMsRUFDdkIsaUNBQWlDLENBQUMsRUFEMUIsQ0FDMEIsQ0FBQyxDQUFDIiwiZmlsZSI6ImluaXQuanMiLCJzb3VyY2VzQ29udGVudCI6WyJTeXN0ZW0uaW1wb3J0KCdhcHAnKVxuICAgIC5jYXRjaChlID0+IGNvbnNvbGUuZXJyb3IoZSxcbiAgICAgICAgJ1JlcG9ydCB0aGlzIGVycm9yIGF0IHBhbmthaiAuLi4nKSk7XG4iXSwic291cmNlUm9vdCI6Ii9zb3VyY2UvIn0=

@@ -160,7 +160,7 @@
 
 
 
-            <plugin>
+            <!--<plugin>
                 <groupId>com.spotify</groupId>
                 <artifactId>docker-maven-plugin</artifactId>
                 <version>0.2.3</version>
@@ -168,8 +168,8 @@
                     <imageName>${docker.image.prefix}/${project.artifactId}</imageName>
 
                     <dockerDirectory>src/main/docker</dockerDirectory>
-                    <!--<baseImage>java</baseImage>
-                    <entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>-->
+                    <baseImage>java</baseImage>
+                    <entryPoint>["java", "-jar", "/${project.build.finalName}.jar"]</entryPoint>
                     <resources>
                         <resource>
                             <targetPath>/</targetPath>
@@ -178,7 +178,7 @@
                         </resource>
                     </resources>
                 </configuration>
-            </plugin>
+            </plugin>-->
         </plugins>
 
 
